@@ -1,0 +1,101 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту странницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+	<!-- Заголовок страницы в браузере -->
+	<title>Table test</title>
+	<meta charset="UTF-8">
+</head>
+<!-- Отображает тело страницы -->
+<body>
+	<h1>Пример сложной таблицы</h1>
+	<table style="border-collapse: collapse; width: 100%;">
+		<!--Строка заголовок-->
+		<tr style="border: 2px blue  solid; color: #ffffff; background-color: #888888;">
+			<th style="padding: 5px;">Название 1</th>
+			<th style="padding: 5px;">Название 2</th>
+			<th style="padding: 5px;">Ещё название</th>
+			<th style="padding: 5px;">Куча элементов</th>
+			<th style="padding: 5px;">Список1</th>
+			<th style="padding: 5px;">Список2</th>
+		</tr>
+<!--1-ая строка-->
+		<tr>
+			<td rowspan="11" style="border: 2px blue  solid; padding: 5px; vertical-align: middle; text-align: center;">JPMC</td>
+			<td rowspan="5" style="border: 2px blue  solid; padding: 5px; vertical-align: middle;">CST</td>
+			<td rowspan="3" style="border: 2px blue  solid; padding: 5px; vertical-align: middle;">CT</td>
+			<td style="border: 2px blue  solid; padding: 5px;">ADS</td>
+			<td style="border: 2px blue  solid; padding: 5px; text-align: center;">1</td>
+			<td style="border: 2px blue  solid; padding: 5px; text-align: center;">10</td>
+		</tr>
+<!--2-ая строка-->
+		<tr>
+			<td style="border: 2px blue  solid; padding: 5px;">BTO</td>
+			<td style="border: 2px blue  solid; padding: 5px; text-align: center;">2</td>
+			<td style="border: 2px blue  solid; padding: 5px; text-align: center;">15</td>
+		</tr>
+<!--3-ая строка-->
+		<tr>
+			<td style="border: 2px blue  solid; padding: 5px;">CSI</td>
+			<td style="border: 2px blue  solid; padding: 5px; text-align: center;">3</td>
+			<td style="border: 2px blue  solid; padding: 5px; text-align: center;">16</td>
+		</tr>
+<!--4-ая строка-->
+		<tr>
+			<td rowspan="2" style="border: 2px blue  solid; padding: 5px; text-align: center;">VCT</td>
+			<td style="border: 2px blue  solid; padding: 5px;">ADS</td>
+			<td style="border: 2px blue  solid; padding: 5px; text-align: center;">4</td>
+			<td style="border: 2px blue  solid; padding: 5px; text-align: center;">10</td>
+		</tr>
+<!--5-ая строка-->
+		<tr>
+			<td style="border: 2px blue  solid; padding: 5px;">BTO</td>
+			<td style="border: 2px blue  solid; padding: 5px; text-align: center;">5</td>
+			<td style="border: 2px blue  solid; padding: 5px; text-align: center;">15</td>
+		</tr>
+<!--6-ая строка-->
+		<tr>
+			<td colspan="3" style="border: 2px blue  solid; padding: 5px; text-align: right;">Sub Total</td>
+			<td style="border: 2px blue  solid; padding: 5px; text-align: center;">6</td>
+			<td style="border: 2px blue  solid; padding: 5px; text-align: center;">15</td>
+		</tr>
+<!--7-ая строка-->
+		<tr>
+			<td rowspan="4" style="border: 2px blue  solid; padding: 5px;">CST</td>
+			<td rowspan="3" style="border: 2px blue  solid; padding: 5px;">CT</td>
+			<td style="border: 2px blue  solid; padding: 5px;">ADS</td>
+			<td style="border: 2px blue  solid; padding: 5px; text-align: center;">7</td>
+			<td style="border: 2px blue  solid; padding: 5px; text-align: center;">10</td>
+		</tr>
+<!--8-ая строка-->
+		<tr>
+			<td style="border: 2px blue  solid; padding: 5px;">BTO</td>
+			<td style="border: 2px blue  solid; padding: 5px; text-align: center;">8</td>
+			<td style="border: 2px blue  solid; padding: 5px; text-align: center;">15</td>
+		</tr>
+<!--9-ая строка-->
+		<tr>
+			<td style="border: 2px blue  solid; padding: 5px;">CSI</td>
+			<td style="border: 2px blue  solid; padding: 5px; text-align: center;">9</td>
+			<td style="border: 2px blue  solid; padding: 5px; text-align: center;">16</td>
+		</tr>
+<!--10-ая строка-->
+		<tr>
+			<td style="border: 2px blue  solid; padding: 5px; text-align: center;">VCT</td>
+			<td style="border: 2px blue  solid; padding: 5px;">ADS</td>
+			<td style="border: 2px blue  solid; padding: 5px; text-align: center;">10</td>
+			<td style="border: 2px blue  solid; padding: 5px; text-align: center;">10</td>
+		</tr>
+<!--11-ая строка-->
+		<tr>
+			<td colspan="3" style="border: 2px blue  solid; padding: 5px; text-align: right;">Sub Total</td>
+			<td style="border: 2px blue  solid; padding: 5px; text-align: center;">11</td>
+			<td style="border: 2px blue  solid; padding: 5px; text-align: center;">15</td>
+		</tr>
+	</table>
+</body>
+
+</html>
